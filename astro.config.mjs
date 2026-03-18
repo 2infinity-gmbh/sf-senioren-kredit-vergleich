@@ -3,7 +3,7 @@ import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  site: 'REPLACE_SITE_URL',
+  site: 'https://senioren-kredit-vergleich.de',
   integrations: [sitemap()],
   vite: { plugins: [tailwindcss()] },
 });
